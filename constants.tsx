@@ -15,7 +15,7 @@ import {
   ColorOption, 
   LayoutCategory, 
   OrientationOption 
-} from './types';
+} from './types.ts';
 
 export const STYLES: StyleOption[] = [
   { id: 'cartoon', label: 'Cartoon Style', desc: 'Ceria, menyeronokkan, watak ekspresif', keyword: 'Cartoon illustration style, vibrant colors, fun atmosphere' },

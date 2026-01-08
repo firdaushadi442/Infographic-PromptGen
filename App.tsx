@@ -20,8 +20,8 @@ import {
   COLORS, 
   LAYOUT_CATEGORIES, 
   ORIENTATIONS 
-} from './constants';
-import { LayoutOption } from './types';
+} from './constants.tsx';
+import { LayoutOption } from './types.ts';
 
 const App: React.FC = () => {
   const [title, setTitle] = useState('');
@@ -214,7 +214,7 @@ IMPORTANT: Make it look like a finished, award-winning graphic design poster fou
         possibleLayouts = ['faq-layout', 'list-icon'];
       } else {
         // Balanced, versatile layouts for general content
-        possibleLayouts = ['central-hero', 'grid-bento', 'modular-layout', 'z-pattern', 'mobile-first', 'illustration-centered', 'bento-grid'];
+        possibleLayouts = ['central-hero', 'grid-bento', 'modular-layout', 'z-pattern', 'mobile-first', 'illustration-centered', 'grid-bento'];
       }
       setSelectedLayout(getRandomItem(possibleLayouts));
 
